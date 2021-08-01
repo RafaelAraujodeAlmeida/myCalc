@@ -11,5 +11,8 @@
   "license": "ISC",
   "dependencies": {
     "jasmine": "^3.8.0"
+  },
+  "devDependencies": {
+    "bootstrap": "^3.4.1"
   }
 }
