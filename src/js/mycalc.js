@@ -12,7 +12,23 @@ var mycalc = {
 		var resultado = n1 - n2;
 
 		return Math.round(resultado * 100) / 100;
-	} 
+
+	},
+
+	multiplicar: function(n1,n2){
+
+		var resultado = n1 * n2;
+
+		return Math.round(resultado * 100) / 100;
+	},
+
+
+	dividir : function(n1,n2){
+
+		var resultado = n1 / n2;
+
+		return Math.round(resultado * 100) / 100;
+	}
 }
 
 if (typeof module !== 'undefined' && typeof module.exports !== 'undefined'){
